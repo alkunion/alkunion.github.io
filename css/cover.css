@@ -132,13 +132,18 @@ body {
   }
 }
 
+@media (max-width: 36em) {
+  .logo {
+    max-height: 2.345rem;
+  }
+}
+
 
 /*
  * Cover
  */
 .cover {
   padding: 0 1.5rem;
-  padding-top: 2rem;
 }
 .cover .btn-lg {
   padding: .75rem 1.25rem;
@@ -162,6 +167,15 @@ main.col-sm-12 {
   .cover {
     padding-top: 1.5rem;
   }
+
+  main.col-sm-12 {
+    flex: 0 0 35%;
+  }
+
+  .cover-heading {
+    font-size: 1.6rem;
+    line-height: 1.88rem;
+  }
   
   .lead {
     font-size: 1.05em;
@@ -184,7 +198,7 @@ action .content{
   width: 100vw;
   background-color:rgba(11, 12, 13, 0.5);
   overflow-x: hidden;
-  height: 20%;
+  height: 20.95%;
 }
 
 action input {
@@ -217,4 +231,9 @@ action input {
 
 .mastfoot .icon {
   font-size: 1.63rem;
+}
+
+.mastfoot hr {
+  border-width: 0.15rem;
+  border-color: rgba(79,79,79,0.2);;
 }
