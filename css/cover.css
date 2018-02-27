@@ -60,6 +60,14 @@ body {
   max-width: 42em;
 }
 
+.africa-dots {
+position: absolute;
+width: 450px;
+height: 450px;
+left: 1050px;
+top: 110px;
+}
+
 .theme {
   color: #fcdd38;
 }
