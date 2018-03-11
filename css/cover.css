@@ -59,6 +59,18 @@ body {
   background-size: cover;
 }
 
+@media (min-width: 758px) {
+  body {
+    min-height:800px;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    min-height:919px;
+  }
+}
+
 body > div {
   z-index: 999;
 }
