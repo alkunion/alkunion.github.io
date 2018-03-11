@@ -249,7 +249,6 @@ action input {
 
 @media (max-width: 36em) {
   action .content{
-  height: 100%;
   }
 }
 
