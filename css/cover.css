@@ -58,16 +58,37 @@ body {
   background-size: cover;
 }
 
+body > div {
+  z-index: 999;
+}
+
 .cover-container {
   max-width: 42em;
 }
 
 .africa-dots {
-position: absolute;
-width: 450px;
-height: 450px;
-left: 1050px;
-top: 110px;
+  position: absolute;
+  width: 34em;
+  height: 34em;
+  right: 2rem;
+  top: 11rem;
+}
+
+@media (max-width: 992px) {
+  .africa-dots {
+    width: 25em;
+    height: 25em;
+    top: 19rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .africa-dots {
+    width: 39em;
+    height: 39em;
+    top: 10rem;
+    right: 5rem;
+  }
 }
 
 .theme {
