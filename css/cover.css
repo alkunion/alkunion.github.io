@@ -18,7 +18,9 @@ a:hover {
   background-color: #fff;
   border: .05rem solid #fff;
 }
-
+.mce_inline_error {
+  border-width:4px;
+}
 
 /*
  * Base structure
