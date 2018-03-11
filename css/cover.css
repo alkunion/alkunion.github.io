@@ -236,13 +236,13 @@ main.col-sm-12 {
 action {
   width: 100%;
   position: static;
-  height: 20.95%;
 }
 
 action .content{
   width: 100vw;
   background-color:rgba(11, 12, 13, 0.5);
   overflow-x: hidden;
+  height: 20.95%;
 }
 
 action input {
@@ -250,11 +250,18 @@ action input {
   font-size: 0.81rem !important;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 578px) and (max-width: 758px) {
+  action {
+    flex: 0 0 25%;
+  }
+
+  action .content {
+    min-height: 10rem;
+  }
 }
 
 @media (min-width: 36em) {
-  action .content{
+  action .content {
     position: absolute;
     left: 0;
   }
