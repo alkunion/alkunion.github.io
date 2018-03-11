@@ -29,6 +29,7 @@ a:hover {
 html,
 body {
   height: 100%;
+  min-height: 600px;
   background-color: #333;
 }
 
@@ -223,13 +224,13 @@ main.col-sm-12 {
 action {
   width: 100%;
   position: static;
+  height: 20.95%;
 }
 
 action .content{
   width: 100vw;
   background-color:rgba(11, 12, 13, 0.5);
   overflow-x: hidden;
-  height: 20.95%;
 }
 
 action input {
